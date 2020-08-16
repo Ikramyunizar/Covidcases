@@ -1,0 +1,56 @@
+:root {
+    --lighter-scheme: #e3f6f5;
+    --dark-scheme: #272343;
+    --light-scheme: #bae8e8;
+    --bright-scheme: #ffffff;
+}
+
+
+
+
+
+#title {
+    padding: 3% 0%;
+    height: 50%;
+    background-color: var(--lighter-scheme)
+}
+
+.title-header {
+    font-family: 'Patua One', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--dark-scheme);
+}
+
+.world-image{
+width: 50%;
+height: 50%;
+padding: 5% 0% 0%;
+color: var(--dark-scheme);
+}
+
+.title-images {
+    height: 10%;
+}
+
+.count-layout {
+    padding: 5%;
+    margin: 2%;
+    width: 25%;
+    height: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: var(--bright-scheme);
+    margin: auto;
+}
+
+.cases-title{
+    font-size: 1.8rem;
+    font-weight: 700 ;
+
+}
+
+.cases-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+

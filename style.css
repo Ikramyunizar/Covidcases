@@ -1,0 +1,44 @@
+:root {
+    --lighter-scheme: #f64b3c;
+    --dark-scheme: #42240c;
+    --light-scheme: #c81912;
+    --bright-scheme: #fdba9a;
+}
+
+#title {
+    padding: 3% 0%;
+    height: 50%;
+    background-color: var(--bright-scheme)
+}
+
+.title-header {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--dark-scheme);
+}
+
+.world-image{
+width: 50%;
+height: 50%;
+padding: 5% 0% 0%;
+}
+
+.title-images {
+    height: 10%;
+}
+
+.count-layout {
+    padding: 5%;
+    border-left: 5px black solid;
+    border-right:5px black solid;
+    width: 25%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.cases-title{
+    font-size: 1.5rem;
+    font-weight: 700 ;
+
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19 Cases</title>
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section id="title">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center title-images">
+                    <h1 class="title-header">Covid Cases Worldwide</h1>
+                    <img src="resources/Image/World_map.svg" alt="" srcset="" class="world-image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 count-layout  text-center">
+                    <h4 class="cases-title">Total Cases</h4>
+                    <p>-</p>
+                </div>
+                <div class="col-md-4 count-layout text-center">
+                    <h4 class="cases-title">Today New Cases</h4>
+                <p>-</p>
+            </div>
+                <div class="col-md-4 count-layout text-center"><h4 class="cases-title">Yesterday Cases</h4>
+                <p>-</p>
+            </div>
+            <div class="clearfix"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="country">
+        <div class="container">
+            <div class="row">
+                <div class="col"><h1>Based on Country Cases</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form action="/" method="post">
+                        <input type="text" class="form-control" placeholder="Enter County Here">
+                        <button type="submit" class="btn">Go!</button>
+                    </form>
+                </div>
+               
+            </div>
+            <div class="row">
+                <div class="col text-center">Total Cases</div>
+                <div class="col text-center">New Cases</div>
+                <div class="col text-center">Yesterday Cases</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
